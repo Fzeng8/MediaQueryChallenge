@@ -1,3 +1,33 @@
+body{
+    background-color: aquamarine;
+        margin: 15px
+}
+
+p{
+    width: 750px;
+    font-size: 18px;
+}
+
+
+img{
+    width: 400px;
+}
+
+
+
+.row {
+display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+    margin: 0px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+
 @media screen and (max-width: 500px) {
     body{
         background-color: pink;
